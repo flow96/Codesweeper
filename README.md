@@ -2,11 +2,11 @@
 Minesweeper Implementierung in JavaFX für die get-in-it Code Competition.
 
 # Allgemeines
-Im Ordner Runnable befindet sich eine ausführbare .jar Datei, die per Doppelklick gestartet werden kann.
+Im Ordner <b>Runnable</b> befindet sich eine ausführbare .jar Datei, die per Doppelklick gestartet werden kann.
 <br />
-Im Ordner Code/src befindet sich der kommentierte Java-Quellcode.
+Im Ordner <b>Code/src</b> befindet sich der kommentierte Java-Quellcode.
 <br />
-Im Ordner Bilder befinden sich Screenshots der Anwendung.
+Im Ordner <b>Bilder</b> befinden sich Screenshots der Anwendung.
 
 # Installation
 Damit Codesweeper plattformunabhängig funktioniert wurde JavaFX verwendet. Zur Ausführung wird deshalb Java in der Version 1.8 benötigt. <br />
