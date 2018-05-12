@@ -14,6 +14,9 @@ Die Java Version lässt sich über die Konsole mit dem Befehl "Java -version" pr
 <br />
 <br />
 <b>Eine ausführbare .jar-Datei des Spiels liegt im Ordner Runnable und kann per Doppelklick, oder über die Konsole mit dem Befehl "java -jar Codesweeper.jar" gestartet werden.</b>
+<br />
+<br />
+Auf dem Mac muss man die .jar Datei eventuell mit gedrückter CTRL-Taste und Rechtsklick -> öffnen starten, da die Sicherheitseinstellungen auf Macs heruntergeladene .jar Dateien meist blockieren.
 <br /><br />
 Zum Starten der Anwendung das Projekt als Zip herunterladen oder klonen. Anschließend in den Ordner Runnable gehen und die Datei "Codesweeper.jar" per Doppelklick öffnen.
 <br />
