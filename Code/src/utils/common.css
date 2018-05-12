@@ -1,0 +1,56 @@
+
+#btnClose{
+    -fx-background-color: #30343B;
+    -fx-text-fill: white;
+    -fx-background-radius: 0px;
+}
+
+#btnClose:hover{
+    -fx-background-color: #3C424D;
+}
+
+#btnClose:pressed{
+    -fx-background-color: #24262B;
+}
+
+.menu-bar, .menu {
+    -fx-background-color: #30343B;
+}
+
+.menu:hover{
+    -fx-background-color: #363C45;
+}
+
+
+.menu .label{
+    -fx-text-fill: white;
+}
+
+.menu-item{
+    -fx-pref-width:200px;
+    -fx-background-insets:0px 0px 0px 0px;
+    -fx-padding:5px 0px 5px 30px;
+}
+
+.menu-item .label{
+    -fx-text-fill: black;
+}
+
+#btnStart{
+    -fx-background-color: rgba(105, 105, 105, 0.8);
+    -fx-text-fill: lightgray;
+    -fx-background-radius: 6px;
+}
+
+#btnStart:hover{
+    -fx-background-color: rgba(105, 105, 105, 0.95);
+}
+
+#btnStart:pressed{
+    -fx-background-color: rgba(95, 95, 95, 0.7);
+}
+
+.textbox{
+    -fx-text-fill: #F2F2F2;
+    -fx-background-color: #4F4F4F;
+}
