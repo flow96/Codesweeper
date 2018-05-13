@@ -137,16 +137,18 @@ public class GameController {
     }
 
     public void fieldUnhidden(){
-        unhiddenFields++;
-        if(unhiddenFields == (difficulty.getWidth() * difficulty.getHeight()) - difficulty.getMines()){
-            gameOver();
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Gewonnen!");
-            alert.setHeaderText("Glückwunsch du hast gewonnen!");
-            alert.setOnCloseRequest(e ->{
-                alert.close();
-            });
-            alert.showAndWait();
+        if(!gameover) {
+            unhiddenFields++;
+            if (unhiddenFields == (difficulty.getWidth() * difficulty.getHeight()) - difficulty.getMines()) {
+                gameOver();
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Gewonnen!");
+                alert.setHeaderText("Glückwunsch du hast gewonnen!");
+                alert.setOnCloseRequest(e -> {
+                    alert.close();
+                });
+                alert.showAndWait();
+            }
         }
     }
 
