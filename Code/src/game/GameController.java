@@ -11,8 +11,11 @@ import javafx.geometry.VPos;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
@@ -38,6 +41,7 @@ public class GameController {
     private int totalSeconds;
     private game.Field[][] fields;
     private Timeline timeline;
+    private int unhiddenFields = 0;
 
 
     @FXML
@@ -129,6 +133,20 @@ public class GameController {
                     }
                 }
             }
+        }
+    }
+
+    public void fieldUnhidden(){
+        unhiddenFields++;
+        if(unhiddenFields == (difficulty.getWidth() * difficulty.getHeight()) - difficulty.getMines()){
+            gameOver();
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Gewonnen!");
+            alert.setHeaderText("Glückwunsch du hast gewonnen!");
+            alert.setOnCloseRequest(e ->{
+                alert.close();
+            });
+            alert.showAndWait();
         }
     }
 

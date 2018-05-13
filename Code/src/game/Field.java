@@ -133,6 +133,7 @@ public class Field extends GridPane {
      */
     public void unhideField(){
         if(hidden) {
+            controller.fieldUnhidden();
             hidden = false;
             // Remove labels and flags
             for (int i = getChildren().size() - 1; i >= 0; i--) {
