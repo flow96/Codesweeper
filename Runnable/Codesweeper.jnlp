@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Codesweeper.jar" size="55344" download="eager" />
+    <jar href="Codesweeper.jar" size="55354" download="eager" />
   </resources>
   <jfx:javafx-desc  width="600" height="400" main-class="game.Main"  name="Codesweeper" />
   <update check="background"/>
