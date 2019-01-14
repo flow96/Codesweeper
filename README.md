@@ -15,11 +15,8 @@ The Java version can be checked over the commandline by typing "java -version".
 <br />
 <b>A runnable .jar-file can be found under Runnable.</b>
 <br />
-<br />
-<br />
 
-
-# Vorschau des Spiels
+# Preview of the game
 Start screen
 <br />
 <img src="./Bilder/Start.png" alt="Start" width="420"/>
