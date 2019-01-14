@@ -26,13 +26,12 @@ Zum Starten der Anwendung das Projekt als Zip herunterladen oder klonen. Anschli
 # Vorschau des Spiels
 Startbildschirm
 <br />
-![Startbildschirm](https://github.com/flow96/Codesweeper/blob/master/Bilder/Start.png)
-
+<img src="./Bilder/Start.png" alt="Start" width="420"/>
 Spiel
 <br />
-![Startbildschirm](https://github.com/flow96/Codesweeper/blob/master/Bilder/Spiel1.png)
+<img src="./Bilder/Spiel1.png" alt="Start" width="650"/>
 <br />
-![Startbildschirm](https://github.com/flow96/Codesweeper/blob/master/Bilder/Spiel2.png)
+<img src="./Bilder/Spiel2.png" alt="Start" width="650"/>
 
 
 # Lizenz
