@@ -6,7 +6,7 @@ A runnable jar can be found in the <b>Runnable</b> folder.
 <br />
 The source code can be found in the <b>Code/src</b> folder.
 <br />
-Im Ordner <b>Bilder</b> befinden sich Screenshots der Anwendung.
+In the <b>Bilder</b> folder you can find some screenshots of the app.
 
 # Installation
 To achieve cross-platform support JavaFX was used for implementation. To run the game Java version 1.8 will be needed. <br />
